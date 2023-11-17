@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "[UPD] Blade Ball (By ZHack)", HidePremium = false, SaveConfig = true, IntroText = "By ZHack", ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "[UPD] Blade Ball (By ZHack | Zacklish Is ZHack)", HidePremium = false, SaveConfig = true, IntroText = "By ZHack", ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "In-Game",
