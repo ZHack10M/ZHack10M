@@ -9,7 +9,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "AutoParry",
+	Name = "Auto Parry • صد تلقائي",
 	Callback = function()
       		print("button pressed")
       		_G.AutoParry = true
@@ -45,7 +45,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "StopAutoParry",
+	Name = "Stop Auto Parry • إيقاف الصد التلقائي",
 	Callback = function()
       		print("button pressed")
       		_G.AutoParry = false
@@ -81,7 +81,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Free Abilities",
+	Name = "Free Abilities • جميع المهارات مجانية",
 	Callback = function()
       		print("button pressed")
       		local localPlayer = game.Players.LocalPlayer
